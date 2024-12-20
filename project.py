@@ -13,7 +13,7 @@ import warnings
 warnings.filterwarnings('ignore')
 
 # Load the data
-data = pd.read_csv('loan_data.csv')
+data = pd.read_csv('app/loan_data.csv')
 df = pd.DataFrame(data)
 
 # Check for null values
